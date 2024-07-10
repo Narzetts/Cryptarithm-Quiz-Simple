@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+body {
+    background: linear-gradient(to bottom, #45484d 0%,#000000 100%);
+    color: #F7F7F7;
+    font-family: DotGothic16;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+#quiz-container {
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #F6C90E;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    color: #303841;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #F7F7F7;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
