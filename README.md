@@ -1,3 +1,5 @@
+![alt_text](https://github.com/Narzetts/Cryptarithm-Quiz-Simple/blob/main/Demo.png?raw=true)
+
 # Cryptarithm Quiz App
 
 This is a simple web application built using HTML, CSS, and JavaScript that presents cryptarithm puzzles for users to solve.
